@@ -85,7 +85,12 @@ class NoteActivity : AppCompatActivity() {
 
         return true;
     }
+    fun getAllNotes(): ArrayList<NoteModel> {
 
+        val listModels = ArrayList<NoteModel>()
+
+        return listModels ;
+    }
 
     inner class MyLinearLayoutManager(context: Context, orientation: Int, reverseLayout: Boolean) : LinearLayoutManager(context, orientation, reverseLayout) {
 
