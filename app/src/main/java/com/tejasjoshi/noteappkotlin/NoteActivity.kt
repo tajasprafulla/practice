@@ -91,7 +91,7 @@ class NoteActivity : AppCompatActivity() {
 
         return listModels ;
     }
-    fun delereAllNotes(): Boolean {
+    fun deleteAllNotes(): Boolean {
 
         return true ;
     }
