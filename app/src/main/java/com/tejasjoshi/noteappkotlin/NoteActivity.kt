@@ -91,7 +91,10 @@ class NoteActivity : AppCompatActivity() {
 
         return listModels ;
     }
+    fun delereAllNotes(): Boolean {
 
+        return true ;
+    }
     inner class MyLinearLayoutManager(context: Context, orientation: Int, reverseLayout: Boolean) : LinearLayoutManager(context, orientation, reverseLayout) {
 
         private val mMeasuredDimension = IntArray(2)
