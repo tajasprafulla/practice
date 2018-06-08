@@ -95,6 +95,10 @@ class NoteActivity : AppCompatActivity() {
 
         return true ;
     }
+    fun deleteById(id: Int): Boolean {
+
+        return true ;
+    }
     inner class MyLinearLayoutManager(context: Context, orientation: Int, reverseLayout: Boolean) : LinearLayoutManager(context, orientation, reverseLayout) {
 
         private val mMeasuredDimension = IntArray(2)
